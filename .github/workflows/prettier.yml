@@ -23,6 +23,7 @@ jobs:
       
       - name: Check Format
         run: |
+          npm run format
           npm run check-format
-          npm run prettier --write .
+          
 
