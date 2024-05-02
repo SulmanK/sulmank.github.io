@@ -337,6 +337,7 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
+  display: true
 };
 
 const contactInfo = {
