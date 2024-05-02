@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.281b04a0.css",
-    "main.js": "/static/js/main.65f616fd.js",
+    "main.js": "/static/js/main.f5da821b.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.a04ee740.chunk.js": "/static/js/64.a04ee740.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.0d29774a.chunk.js": "/static/js/769.0d29774a.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/gb_logo.webp": "/static/media/gb_logo.3e505cff36f4dd346b7a.webp",
-    "static/media/resume.pdf": "/static/media/resume.01c52a8b6c8e59a099d5.pdf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/World_of_Warcraft_logo.webp": "/static/media/World_of_Warcraft_logo.1e493912fc0cb53b4877.webp",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -25,7 +24,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
     "main.281b04a0.css.map": "/static/css/main.281b04a0.css.map",
-    "main.65f616fd.js.map": "/static/js/main.65f616fd.js.map",
+    "main.f5da821b.js.map": "/static/js/main.f5da821b.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.a04ee740.chunk.js.map": "/static/js/64.a04ee740.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.281b04a0.css",
-    "static/js/main.65f616fd.js"
+    "static/js/main.f5da821b.js"
   ]
 }
