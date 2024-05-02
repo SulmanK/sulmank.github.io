@@ -24,7 +24,7 @@ const greeting = {
   title: "Hello, I'm Sulman",
   subTitle: emoji("A passionate AI/ML enthusiast 📈 eager in applying analytics to business problems."),
   resumeLink:
-   "https://www.linkedin.com/in/sulman-khan/overlay/1707866406176/single-media-viewer/?profileId=ACoAABfGR24BTiI8nwL7Wn5E-MJEiW1gfDErbDc", // Set to empty to hide the button
+   "https://sulmank.github.io/Resume/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
