@@ -215,7 +215,7 @@ const achievementSection = {
   {
       title: "Ekstra Bladet RecSys Challenge 2024",
       subtitle: "The Ekstra Bladet RecSys Challenge aims to predict which article a user will click on from a list of articles that were seen during a specific impression. Utilizing the user's click history, session details (like time and device used), and personal metadata (including gender and age), along with a list of candidate news articles listed in an impression log, the challenge's objective is to rank the candidate articles based on the user's personal preferences.   ",
-      image: require("./assets/images/ekstraLogo.png"),
+      image: require("./assets/images/ekstraLogo.webp"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/2024-Recsys-Challenge" },
         { name: "Blog", url: "https://sulmank.github.io/Blog/writing/category/recsys-challenge-2024/#recsys-challenge-2024-exploratory-data-analysis" },
