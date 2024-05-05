@@ -239,7 +239,7 @@ const achievementSection = {
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/Video-Game-Recommendation-Engine" },
         { name: "Code", url: "https://github.com/SulmanK/Video-Game-Recommendation-Engine/blob/master/Video%20Game%20Recommendation%20Engine.ipynb" },
-        { name: "Application", url: "http://vgre-app.us-east-1.elasticbeanstalk.com/" },
+        { name: "Application", url: "http://video-game-rec-env.eba-bmsnxzwj.us-east-1.elasticbeanstalk.com/" },
       ]
     },
 
