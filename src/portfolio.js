@@ -229,7 +229,7 @@ const achievementSection = {
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/eBay-web-crawler-phone-auctions" },
         { name: "Code", url: "https://github.com/SulmanK/eBay-web-crawler-phone-auctions/tree/main/Dashboard" },
-        { name: "Application", url: "http://ebay-phone-aide-app.us-east-1.elasticbeanstalk.com/" },
+        { name: "Application", url: "http://phone-auction-aide-3-env.eba-pt2ur9kp.us-east-1.elasticbeanstalk.com/" },
       ]
     },
   {
@@ -239,7 +239,7 @@ const achievementSection = {
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/Video-Game-Recommendation-Engine" },
         { name: "Code", url: "https://github.com/SulmanK/Video-Game-Recommendation-Engine/blob/master/Video%20Game%20Recommendation%20Engine.ipynb" },
-        { name: "Application", url: "http://video-game-rec-env.eba-bmsnxzwj.us-east-1.elasticbeanstalk.com/" },
+        { name: "Application", url: "http://video-game-rec-env.eba-bmsnxzwj.us-east-1.elasticbeanstalk.com/)" },
       ]
     },
 
@@ -251,7 +251,7 @@ const achievementSection = {
     { name: "Github", url: "https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft" },
         { name: "Publication", url: "https://arxiv.org/abs/2006.15735" },
         { name: "Code", url: "https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft.ipynb" },
-        { name: "Application", url: "http://customer-churn-in-wow-app.us-east-1.elasticbeanstalk.com/" }
+        { name: "Application", url: "http://customer-churn-in-wow-env.eba-34pgrvev.us-east-2.elasticbeanstalk.com/" }
       ]
     },
 
@@ -263,7 +263,7 @@ const achievementSection = {
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters" },
         { name: "Code", url: "https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters" },
-        { name: "Application", url: "http://pubg-hd-app.us-east-1.elasticbeanstalk.com/" }
+        { name: "Application", url: "http://pubg-hd-env.eba-srm42prp.us-east-1.elasticbeanstalk.com/" }
       ]
     },
 
