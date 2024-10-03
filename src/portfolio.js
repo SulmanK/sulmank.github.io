@@ -251,7 +251,7 @@ const achievementSection = {
     { name: "Github", url: "https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft" },
         { name: "Publication", url: "https://arxiv.org/abs/2006.15735" },
         { name: "Code", url: "https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft/blob/master/Customer%20Churn%20in%20World%20of%20Warcraft.ipynb" },
-        { name: "Application", url: "http://customer-churn-in-wow-env.eba-34pgrvev.us-east-2.elasticbeanstalk.com/" }
+        { name: "Application", url: "http://Ccwow-env.eba-xp4yg5th.us-east-1.elasticbeanstalk.com" }
       ]
     },
 
