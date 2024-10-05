@@ -297,6 +297,12 @@ const blogSection = {
       description:
         "This article will cover the exploratory data analysis of the RecSys 2024 Challenge dataset."
     },
+    {
+      url: "https://sulmank.github.io/Blog/writing/2024/04/28/RecSys-Overview/",
+      title: "Recommendation Systems: Overview",
+      description:
+        "This article will cover an overview of recommendation systems."
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
