@@ -218,7 +218,7 @@ const achievementSection = {
       image: require("./assets/images/ekstraLogo.webp"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/2024-Recsys-Challenge" },
-        { name: "Blog", url: "https://sulmank.github.io/Blog/writing/category/recsys-challenge-2024/#recsys-challenge-2024-exploratory-data-analysis" },
+        { name: "Blog: Exploratory Data Analysis", url: "https://sulmank.github.io/Blog/writing/category/recsys-challenge-2024/#recsys-challenge-2024-exploratory-data-analysis" },
         
       ]
     },
