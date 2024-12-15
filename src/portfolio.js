@@ -218,8 +218,8 @@ const achievementSection = {
       image: require("./assets/images/ekstraLogo.webp"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/2024-Recsys-Challenge" },
-        { name: "Blog: Exploratory Data Analysis", url: "https://sulmank.github.io/Blog/writing/category/recsys-challenge-2024/#recsys-challenge-2024-exploratory-data-analysis" },
-        
+        { name: "Blog: Exploratory Data Analysis", url: "https://sulmank.github.io/Blog/writing/2024/04/25/recsys-challenge-2024-eda/" },
+        { name: "Blog: Model Selection", url: "https://sulmank.github.io/Blog/writing/2024/12/15/recsys-challenge-2024-model-selection/" },
       ]
     },
     {
@@ -291,6 +291,12 @@ const blogSection = {
     "I'll be showcasing my latest projects here.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+      url: "https://sulmank.github.io/Blog/writing/2024/12/15/recsys-challenge-2024-model-selection/",
+      title: "RecSys Challenge 2024: Model Selection",
+      description:
+        "This article will cover model selection of the RecSys Challenge 2024 dataset."
+    },
     {
       url: "https://sulmank.github.io/Blog/writing/2024/04/25/recsys-challenge-2024-eda/",
       title: "RecSys Challenge 2024: Exploratory Data Analysis",
