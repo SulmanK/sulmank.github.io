@@ -114,7 +114,7 @@ const educationInfo = {
     {
       schoolName: "Stony Brook University",
       logo: require("./assets/images/sbuLogo.png"),
-      subHeader: "Master of Science in Electrical Engineering",
+      subHeader: "Master of Science in Electrical Engineering (Concentration in Machine Learning Systems)",
       duration: "August 2016 - May 2018",
       desc: "",
       descBullets: [
@@ -158,6 +158,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "AI/DS Consultant",  
+      company: "Nuage Software Corporation",
+      companylogo: require("./assets/images/NSlogo.webp"),
+      date: "June 2024 – Present",
+      desc: "",
+      descBullets: [
+    "Designed and integrated an ETL data pipeline on Google Cloud Platform, with PostgreSQL for the database, dbt for data transformation, BigQuery for data warehousing, and Looker for visualization, to collect and process user data, enabling customer churn prediction and supporting data-driven retention strategies.",
+    "Implemented a machine learning model for customer churn prediction, focusing on advanced feature engineering and leveraging predictive insights to enhance player retention strategies by reducing churn.",
+   // "Designed viewership feedback surveys adhering to A/B testing design methodologies.",
+    "Advised clients on implementing generative AI methodologies, including retrieval-augmented generation, prompt engineering, and AI agentic workflows, to develop customized AI solutions tailored to specific business challenges.",
+      ]
+    },
+    {
       role: "Data Scientist",  
       company: "Fingercramp",
       companylogo: require("./assets/images/fingercrampLogo.webp"),
@@ -165,9 +178,9 @@ const workExperiences = {
       desc: "",
       descBullets: [
     "Developed a character balancing model based on historical statistic performance and matchup characteristics.",
-    "Setup and managed a PostgreSQL database to store match statistics for extensive querying involving multiple joins between tables and schemas.",
-    "Designed viewership feedback surveys adhering to A/B testing design methodologies.",
-    "Produced data visualization dashboard assets for the streaming platform.",
+    "Established and maintained a PostgreSQL database for match statistics, enabling complex querying across multiple tables and schemas.",
+   // "Designed viewership feedback surveys adhering to A/B testing design methodologies.",
+    "Produced data visualization dashboards for the streaming platform.",
       ]
     },
 
