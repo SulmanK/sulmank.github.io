@@ -48,7 +48,7 @@ const skillsSection = {
   skills: [
     emoji("⚡ Leveraged my data analysis, cleaning, database management, and predictive modeling skills for providing business solutions."),
   emoji("⚡ Utilize end-to-end machine learning design methodologies."),
-    emoji("⚡ Deployment of applications using third-party services such as Docker, AWS, and Heroku.")
+    emoji("⚡ Deployment of applications on cloud platforms such as AWS and GCP.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -100,7 +100,32 @@ https://fontawesome.com/icons?d=gallery */
   {
       skillName: "flask",
       fontAwesomeClassname: "fa fa-flask"
-    }
+    },
+
+    {
+      skillName: "Spark",
+      fontAwesomeClassname: "fa fa-bolt"
+    },
+
+    {
+      skillName: "Airflow",
+      fontAwesomeClassname: "fa fa-wind"
+    },
+
+    {
+      skillName: "dbt",
+      fontAwesomeClassname: "fa fa-database"
+    },
+
+    {
+      skillName: "LangChain",
+      fontAwesomeClassname: "fa fa-link"
+    },
+    
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
   
   ],
   display: true // Set false to hide this section, defaults to true
@@ -164,7 +189,7 @@ const workExperiences = {
       date: "June 2024 – Present",
       desc: "",
       descBullets: [
-    "Designed and integrated an ETL data pipeline on Google Cloud Platform, with PostgreSQL for the database, dbt for data transformation, BigQuery for data warehousing, and Looker for visualization, to collect and process user data, enabling customer churn prediction and supporting data-driven retention strategies.",
+    "Designed and integrated an ETL data pipeline on GCP, using Apache Airflow for orchestration, PostgreSQL for the database, dbt for data transformation, BigQuery for data warehousing, and Looker for visualization, to collect and process user data, enabling customer churn prediction and supporting data-driven retention strategies.",
     "Implemented a machine learning model for customer churn prediction, focusing on advanced feature engineering and leveraging predictive insights to enhance player retention strategies by reducing churn.",
    // "Designed viewership feedback surveys adhering to A/B testing design methodologies.",
     "Advised clients on implementing generative AI methodologies, including retrieval-augmented generation, prompt engineering, and AI agentic workflows, to develop customized AI solutions tailored to specific business challenges.",
@@ -179,7 +204,7 @@ const workExperiences = {
       descBullets: [
     "Developed a character balancing model based on historical statistic performance and matchup characteristics.",
     "Established and maintained a PostgreSQL database for match statistics, enabling complex querying across multiple tables and schemas.",
-   // "Designed viewership feedback surveys adhering to A/B testing design methodologies.",
+    "Designed viewership feedback surveys adhering to A/B testing design methodologies.",
     "Produced data visualization dashboards for the streaming platform.",
       ]
     },
