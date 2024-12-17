@@ -160,7 +160,7 @@ const workExperiences = {
     {
       role: "AI/DS Consultant",  
       company: "Nuage Software Corporation",
-      companylogo: require("./assets/images/NSlogo.webp"),
+      companylogo: require("./assets/images/NSlogo.png"),
       date: "June 2024 – Present",
       desc: "",
       descBullets: [
