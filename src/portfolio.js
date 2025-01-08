@@ -250,6 +250,16 @@ const achievementSection = {
   title: emoji("Project Showcase"),
   subtitle: "",
   achievementsCards: [
+    {
+      title: " Reddit AI Pulse: Building an AI-Powered Data Pipeline",
+      subtitle: "The sheer volume of data on Reddit makes it challenging to manually track and understand the key themes and sentiments within various subreddits. This project addresses the need for an automated system that can efficiently collect, process, and analyze Reddit data to extract meaningful insights.   ",
+      image: require("./assets/images/reddit_logo.png"),
+      footerLink: [
+    { name: "Github: On-Prem", url: "https://github.com/SulmanK/reddit_ai_pulse_local_public"},
+        { name: "Blog: Building an AI-Powered Data Pipeline", url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28ON-PREM%29/" },
+        
+      ]
+    },
   {
       title: "Ekstra Bladet RecSys Challenge 2024",
       subtitle: "The Ekstra Bladet RecSys Challenge aims to predict which article a user will click on from a list of articles that were seen during a specific impression. Utilizing the user's click history, session details (like time and device used), and personal metadata (including gender and age), along with a list of candidate news articles listed in an impression log, the challenge's objective is to rank the candidate articles based on the user's personal preferences.   ",
@@ -329,6 +339,13 @@ const blogSection = {
     "I'll be showcasing my latest projects here.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+
+      url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28ON-PREM%29/",
+      title: "From Reddit to Insights: Building an AI-Powered Data Pipeline with Gemini (ON-PREM)",
+      description:
+        "This article will building an AI-Powered Data Pipeline on premise. "
+    },
     {
       url: "https://sulmank.github.io/Blog/writing/2024/12/15/recsys-challenge-2024-model-selection/",
       title: "RecSys Challenge 2024: Model Selection",
