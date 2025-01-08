@@ -257,7 +257,7 @@ const achievementSection = {
       footerLink: [
     { name: "Github: On-Prem", url: "https://github.com/SulmanK/reddit_ai_pulse_local_public"},
         { name: "Blog: Building an AI-Powered Data Pipeline", url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28ON-PREM%29/" },
-        
+        { name: "Website: Reddit AI Pulse", url: "https://reddit-text-insight-and-sentiment-website-local.vercel.app/"}
       ]
     },
   {
