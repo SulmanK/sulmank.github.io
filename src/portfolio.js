@@ -251,12 +251,12 @@ const achievementSection = {
   subtitle: "",
   achievementsCards: [
     {
-      title: " Reddit AI Pulse: Building an AI-Powered Data Pipeline",
+      title: "Reddit AI Pulse: Building an AI-Powered Data Pipeline",
       subtitle: "The sheer volume of data on Reddit makes it challenging to manually track and understand the key themes and sentiments within various subreddits. This project addresses the need for an automated system that can efficiently collect, process, and analyze Reddit data to extract meaningful insights.   ",
       image: require("./assets/images/reddit_logo.png"),
       footerLink: [
     { name: "Github: On-Prem Implementation", url: "https://github.com/SulmanK/reddit_ai_pulse_local_public"},
-        { name: "Blog: Building an AI-Powered Data Pipeline (On-Prem)", url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28ON-PREM%29/" },
+        { name: "Blog: Building an AI-Powered Data Pipeline (On-Prem)", url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28On-Prem%29/" },
         { name: "Application", url: "https://reddit-text-insight-and-sentiment-website-local.vercel.app/"}
       ]
     },
