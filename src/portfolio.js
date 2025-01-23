@@ -194,7 +194,7 @@ const workExperiences = {
       date: "June 2024 – Present",
       desc: "",
       descBullets: [
-    "Designed and integrated an ETL data pipeline on GCP, using Apache Airflow for orchestration, PostgreSQL for the database, dbt for data transformation, BigQuery for data warehousing, and Looker for visualization, to collect and process user data, enabling customer churn prediction and supporting data-driven retention strategies.",
+    "Designed and integrated an ETL data pipeline on GCP, leveraging Apache Airflow for orchestration, GCS as a data lake, dbt and Spark for data transformation, BigQuery for data warehousing, and Looker for visualization. This pipeline enabled the collection and processing of user data to predict customer churn and support data-driven retention strategies.",
     "Implemented a machine learning model for customer churn prediction, focusing on advanced feature engineering and leveraging predictive insights to enhance player retention strategies by reducing churn.",
    // "Designed viewership feedback surveys adhering to A/B testing design methodologies.",
     "Advised clients on implementing generative AI methodologies, including retrieval-augmented generation, prompt engineering, and AI agentic workflows, to develop customized AI solutions tailored to specific business challenges.",
