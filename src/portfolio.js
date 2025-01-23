@@ -22,7 +22,7 @@ const illustration = {
 const greeting = {
   username: "Sulman Khan",
   title: "Hello, I'm Sulman",
-  subTitle: emoji("A passionate AI/ML enthusiast 📈 eager in applying analytics to business problems."),
+  subTitle: emoji("Aspiring AI/ML expert eager to harness the power of analytics to deliver data-driven business solutions."),
   resumeLink:
    "https://sulmank.github.io/Resume/", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -44,11 +44,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills",
-  subTitle: "Through rigorous coursework, I have deepened my understanding of Statistics, Experimental Design, Machine Learning, and Data Analysis. Furthermore, I have applied my expertise in these domains to solve business problems as demonstrated by my work experience and projects. ",
+  subTitle: "Building on a solid academic foundation and years of professional experience, I have developed advanced expertise in AI, Machine Learning, Statistics, Experimental Design, and Data Analysis. I have successfully leveraged AI-driven approaches to tackle complex business problems, optimize workflows, and generate measurable value across industries. ",
   skills: [
-    emoji("⚡ Leveraged my data analysis, cleaning, database management, and predictive modeling skills for providing business solutions."),
-  emoji("⚡ Utilize end-to-end machine learning design methodologies."),
-    emoji("⚡ Deployment of applications on cloud platforms such as AWS and GCP.")
+    emoji("⚡ Designed and implemented end-to-end AI and machine learning pipelines, integrating data collection, cleaning, feature engineering, and model development."),
+  emoji("⚡ Deployed robust, scalable AI and ML solutions on cloud platforms such as AWS and GCP, ensuring high availability and performance."),
+    emoji("⚡ Leveraged advanced AI and analytics techniques to provide business value, delivering actionable insights and driving impactful decision-making.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
