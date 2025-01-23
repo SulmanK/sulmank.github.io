@@ -108,7 +108,7 @@ https://fontawesome.com/icons?d=gallery */
     },
 
     {
-      skillName: "Spark",
+      skillName: "spark",
       fontAwesomeClassname: "fa fa-bolt"
     },
 
