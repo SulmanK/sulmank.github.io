@@ -95,6 +95,11 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     },
 
+    {
+      skillName: "terraform",
+      fontAwesomeClassname: "fas fa-tools"
+    },
+
 
   
   {
