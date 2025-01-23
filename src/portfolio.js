@@ -341,6 +341,16 @@ const blogSection = {
     "I'll be showcasing my latest projects here.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    
+    {
+
+      url: "https://sulmank.github.io/Blog/writing/2025/01/23/Reddit%20AI%20Pulse%20%28Cloud%29/",
+      title: "From Reddit to Insights: Building an AI-Powered Data Pipeline with Gemini (Cloud)",
+      description:
+        "This article will building an AI-Powered Data Pipeline on cloud. "
+    },
+
+
     {
 
       url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28ON-PREM%29/",
