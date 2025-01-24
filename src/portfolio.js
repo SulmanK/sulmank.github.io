@@ -46,9 +46,9 @@ const skillsSection = {
   title: "Skills",
   subTitle: "Building on a solid academic foundation and years of professional experience, I have developed advanced expertise in AI, Machine Learning, Statistics, Experimental Design, and Data Analysis. I have successfully leveraged AI-driven approaches to tackle complex business problems, optimize workflows, and generate measurable value across industries. ",
   skills: [
-    emoji("⚡ Designed and implemented end-to-end AI and machine learning pipelines, integrating data collection, cleaning, feature engineering, and model development."),
-  emoji("⚡ Deployed robust, scalable AI and ML solutions on cloud platforms such as AWS and GCP, ensuring high availability and performance."),
-    emoji("⚡ Leveraged advanced AI and analytics techniques to provide business value, delivering actionable insights and driving impactful decision-making.")
+  emoji("⚡ Designed and implemented end-to-end AI and machine learning pipelines, integrating data collection, cleaning, feature engineering, and model development."),
+  emoji("⚡ Leveraged advanced AI and analytics techniques to provide business value, delivering actionable insights and driving impactful decision-making."),
+  emoji("⚡ Deployed robust, scalable AI and ML solutions on cloud platforms such as AWS and GCP, ensuring high availability and performance.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -194,10 +194,9 @@ const workExperiences = {
       date: "June 2024 – Present",
       desc: "",
       descBullets: [
-    "Designed and integrated an ETL data pipeline on GCP, leveraging Apache Airflow for orchestration, GCS as a data lake, dbt and Spark for data transformation, BigQuery for data warehousing, and Looker for visualization. This pipeline enabled the collection and processing of user data to predict customer churn and support data-driven retention strategies.",
-    "Implemented a machine learning model for customer churn prediction, focusing on advanced feature engineering and leveraging predictive insights to enhance player retention strategies by reducing churn.",
-   // "Designed viewership feedback surveys adhering to A/B testing design methodologies.",
-    "Advised clients on implementing generative AI methodologies, including retrieval-augmented generation, prompt engineering, and AI agentic workflows, to develop customized AI solutions tailored to specific business challenges.",
+    "Engineered a scalable ETL pipeline on GCP, orchestrating workflows with Apache Airflow, transforming data with dbt and Apache Spark, optimizing storage in BigQuery, and Looker for visualizations to support customer churn prediction and retention strategies.",
+    "Implemented customer churn prediction models, applying advanced feature engineering to drive actionable insights and reduce churn.",
+    "Consulted on generative AI deployment, leveraging retrieval-augmented generation and prompt engineering to develop tailored solutions for complex business challenges.",
       ]
     },
     {
