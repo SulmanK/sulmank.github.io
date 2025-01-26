@@ -8,7 +8,13 @@ import StyleContext from "../../contexts/StyleContext";
 export default function Achievement() {
   const {isDark} = useContext(StyleContext);
   
+  // Add debugging logs
+  console.log("Achievement Section:", achievementSection);
+  console.log("Display:", achievementSection.display);
+  console.log("Cards:", achievementSection.achievementsCards);
+  
   if (!achievementSection.display) {
+    console.log("Achievement section is not displayed");
     return null;
   }
   
@@ -16,6 +22,12 @@ export default function Achievement() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="achievements">
         <div className="achievement-main-div">
+          {/* Add a debug element */}
+          {process.env.NODE_ENV === 'development' && (
+            <div style={{padding: '10px', background: '#f0f0f0', margin: '10px 0'}}>
+              Number of cards: {achievementSection.achievementsCards?.length || 0}
+            </div>
+          )}
           <div className="achievement-header">
             <h1
               className={
