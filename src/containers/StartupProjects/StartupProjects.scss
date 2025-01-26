@@ -106,8 +106,8 @@
 }
 
 .project-tag {
-  background: $buttonHover; // Changed to purple by default
-  color: $lightBackground3; // Changed to white text
+  background: $buttonHover; // Purple by default
+  color: $lightBackground3; // White text
   vertical-align: middle;
   align-items: center;
   border-radius: 4px;
@@ -120,7 +120,18 @@
   transition: 0.2s ease-in;
 
   &:hover {
-    background: $buttonColor; // Lighter purple on hover
+    background: $buttonColor;
+    color: $lightBackground3;
+  }
+}
+
+// Add specific dark mode styles
+.dark-mode .project-tag {
+  background: $buttonColor; // Lighter purple in dark mode
+  color: $lightBackground3;
+
+  &:hover {
+    background: $buttonHover;
     color: $lightBackground3;
   }
 }
