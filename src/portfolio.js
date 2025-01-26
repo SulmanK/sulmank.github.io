@@ -263,7 +263,7 @@ const achievementSection = {
         { name: "Github: Cloud Implementation", url: "https://github.com/SulmanK/reddit_ai_pulse_cloud_public"},
         { name: "Blog: Building an AI-Powered Data Pipeline (On-Prem)", url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28On-Prem%29/" },
         { name: "Blog: Building an AI-Powered Data Pipeline (Cloud)", url: "https://sulmank.github.io/Blog/writing/2025/01/23/Reddit%20AI%20Pulse%20%28Cloud%29/" },
-        { name: "Application", url: "https://reddit-text-insight-and-sentiment-website-local.vercel.app/"}
+        { name: "Application", url: "https://reddit-ai-pulse.vercel.app/"}
       ]
     },
   {
