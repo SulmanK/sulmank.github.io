@@ -20,8 +20,8 @@ export default function StartupProject() {
   return (
     <Fade direction="up" triggerOnce>
       <div className="main" id="projects">
-        <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+        <div className="projects-container-main">
+          <h1 className="projects-heading">{bigProjects.title}</h1>
           <p
             className={
               isDark
@@ -32,7 +32,7 @@ export default function StartupProject() {
             {bigProjects.subtitle}
           </p>
 
-          <div className="projects-container">
+          <div className="projects-cards-div">
             {bigProjects.projects.map((project, i) => {
               return (
                 <div

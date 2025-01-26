@@ -1,22 +1,33 @@
 @import "../../_globalColor";
 
-.card-image {
-  max-width: 100%;
-  height: auto;
-  width: 250px;
+.projects-container-main {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1500px;
+  width: 90%;
 }
-.card-title {
-  color: $titleColor;
-  font-size: 22px;
-  line-height: 24px;
-  font-weight: 700;
-  margin: 15px 0 0 0;
+
+.projects-heading {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
 }
-.card-subtitle {
-  color: $cardSubtitle;
-  font-size: 17px;
-  line-height: 1.5rem;
+
+.projects-subtitle {
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
+
+.projects-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+  margin-top: 20px;
+}
+
 .project-card {
   display: flex;
   flex-direction: column;
@@ -24,67 +35,125 @@
   padding: 1.5rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
-  justify-content: center;
-}
-.project-card-light {
-  box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+  justify-content: space-between;
+  height: 100%;
   transition: all 0.3s ease;
+  
+  &:hover {
+    box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+    transform: translateY(-2px);
+  }
 }
 
 .project-card-dark {
-  box-shadow: 0px 10px 30px -15px $darkBoxShadow;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.25s ease;
+  background-color: $darkBackground;
+  border: 1px solid $lightBorder1;
+  
+  &:hover {
+    box-shadow: $achievementCertificateCardHoverDark 0px 20px 30px -10px;
+  }
+}
+
+.project-image {
+  width: 100%;
+  position: relative;
+  padding-top: 35%; // Reduced from 40% to make images even smaller
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: $darkBackground;
+  }
 }
 
 .project-detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
-.project-card-light:hover {
-  box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
+
+.card-title {
+  color: $titleColor;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
 }
-.project-card-dark:hover {
-  box-shadow: 0px 20px 30px -10px $darkBoxShadow;
+
+.card-subtitle {
+  color: $cardSubtitle;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 1rem; // Reduced from 1.5rem to reduce gap
 }
-.project-image {
-  position: relative;
-  height: 250px;
-  overflow: hidden;
+
+.project-card-footer {
   display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
   justify-content: center;
-  align-items: center;
 }
 
-.projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
-}
-
-.project-card-footer span.project-tag {
-  background: $buttonColor;
-  color: $lightBackground3;
+.project-tag {
+  background: $buttonHover; // Changed to purple by default
+  color: $lightBackground3; // Changed to white text
   vertical-align: middle;
   align-items: center;
   border-radius: 4px;
   display: inline-flex;
-  font-size: 0.75rem;
+  font-size: 12px;
   height: 2em;
   justify-content: center;
-  white-space: nowrap;
-  line-height: 1.5;
-  margin: 0 0.5rem 0.5rem 0;
   padding: 0 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
+
+  &:hover {
+    background: $buttonColor; // Lighter purple on hover
+    color: $lightBackground3;
+  }
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .projects-heading {
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 768px) {
+  .projects-heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  
   .project-subtitle {
     font-size: 16px;
+    line-height: normal;
     text-align: center;
+  }
+  
+  .projects-cards-div {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+  
+  .project-card {
+    padding: 1rem;
+  }
+  
+  .project-image {
+    height: 200px;
   }
 }

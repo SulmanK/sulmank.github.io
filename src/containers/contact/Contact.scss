@@ -2,6 +2,27 @@
 
 .contact-div-main {
   display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1500px;
+  width: 90%;
+  gap: 2rem;
+}
+
+.contact-header {
+  margin-bottom: 40px;
+}
+
+.contact-title {
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.contact-subtitle {
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .dark-mode a {
@@ -10,11 +31,6 @@
 
 .contact-div-main > * {
   flex: 1;
-}
-
-.contact-title {
-  font-size: 65px;
-  font-weight: 400;
 }
 
 .contact-detail,
@@ -31,10 +47,6 @@
   color: $textColor;
   text-shadow: 2px 1px 2px $contactDetailHoverTS;
   transition: all 0.3s;
-}
-
-.contact-subtitle {
-  text-transform: uppercase;
 }
 
 .contact-text-div {
