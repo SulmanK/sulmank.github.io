@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c57d143b.css",
-    "main.js": "/static/js/main.283bd470.js",
+    "main.css": "/static/css/main.0c71dadd.css",
+    "main.js": "/static/js/main.67803fc7.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.a04ee740.chunk.js": "/static/js/64.a04ee740.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -9,6 +9,7 @@
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/gb_logo.webp": "/static/media/gb_logo.3e505cff36f4dd346b7a.webp",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/ebay_logo.png": "/static/media/ebay_logo.57fcae6d430f44618fca.png",
     "static/media/World_of_Warcraft_logo.webp": "/static/media/World_of_Warcraft_logo.1e493912fc0cb53b4877.webp",
     "static/media/reddit_logo.png": "/static/media/reddit_logo.c23d519f914310020f67.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -19,20 +20,19 @@
     "static/media/capcom-pt-logo.webp": "/static/media/capcom-pt-logo.68ae5d2f02c8ea836d1e.webp",
     "static/media/ekstraLogo.webp": "/static/media/ekstraLogo.e1a2fde450006de2c4fb.webp",
     "static/media/vtLogo.png": "/static/media/vtLogo.049cc614be1d66019d48.png",
-    "static/media/ebayLogo.webp": "/static/media/ebayLogo.847b34c954b9738aed26.webp",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/PUBG_logo.webp": "/static/media/PUBG_logo.5d25a2492c4378efc35d.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
-    "main.c57d143b.css.map": "/static/css/main.c57d143b.css.map",
-    "main.283bd470.js.map": "/static/js/main.283bd470.js.map",
+    "main.0c71dadd.css.map": "/static/css/main.0c71dadd.css.map",
+    "main.67803fc7.js.map": "/static/js/main.67803fc7.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.a04ee740.chunk.js.map": "/static/js/64.a04ee740.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
     "769.0d29774a.chunk.js.map": "/static/js/769.0d29774a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c57d143b.css",
-    "static/js/main.283bd470.js"
+    "static/css/main.0c71dadd.css",
+    "static/js/main.67803fc7.js"
   ]
 }
