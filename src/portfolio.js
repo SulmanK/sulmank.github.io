@@ -231,7 +231,7 @@ const bigProjects = {
   subtitle: "Projects sponsored by organizations.",
   projects: [
     {
-      image: require("./assets/images/capcom-pt-logo.webp"),
+      image: require("./assets/images/capcom-pro-tour-logo.png"),
       projectName: "Capcom Pro Tour",
       projectDesc: "Premier league for competitive fighting games",
       footerLink: [
