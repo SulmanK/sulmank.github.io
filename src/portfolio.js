@@ -279,7 +279,7 @@ const achievementSection = {
     {
       title: "eBay: Scraping Phone Auctions",
       subtitle: "With the abundance in the number of phones listed on online marketplaces, it overwhelms the user in selecting satisfactory auctions. My approach includes building a web-scraping tool to collect data on phone auctions and calculating various metrics to aid in auction selection.   ",
-      image: require("./assets/images/ebayLogo.webp"),
+      image: require("./assets/images/ebay_logo.png"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/eBay-web-crawler-phone-auctions" },
         { name: "Code", url: "https://github.com/SulmanK/eBay-web-crawler-phone-auctions/tree/main/Dashboard" },
