@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.629c1a47.css",
-    "main.js": "/static/js/main.52d6c8a6.js",
+    "main.css": "/static/css/main.c8502a96.css",
+    "main.js": "/static/js/main.92c1967c.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.3ea3529d.chunk.js": "/static/js/487.3ea3529d.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.109c2489.chunk.js": "/static/js/990.109c2489.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/capcom-pro-tour-logo.png": "/static/media/capcom-pro-tour-logo.383a93e318f814186cb4.png",
     "static/media/gb_logo.webp": "/static/media/gb_logo.3e505cff36f4dd346b7a.webp",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/ebay_logo.png": "/static/media/ebay_logo.57fcae6d430f44618fca.png",
@@ -17,22 +18,21 @@
     "static/media/fingercrampLogo.webp": "/static/media/fingercrampLogo.a964548608e296428a59.webp",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/capcom-pt-logo.webp": "/static/media/capcom-pt-logo.68ae5d2f02c8ea836d1e.webp",
     "static/media/ekstraLogo.webp": "/static/media/ekstraLogo.e1a2fde450006de2c4fb.webp",
     "static/media/vtLogo.png": "/static/media/vtLogo.049cc614be1d66019d48.png",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/PUBG_logo.webp": "/static/media/PUBG_logo.5d25a2492c4378efc35d.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
-    "main.629c1a47.css.map": "/static/css/main.629c1a47.css.map",
-    "main.52d6c8a6.js.map": "/static/js/main.52d6c8a6.js.map",
+    "main.c8502a96.css.map": "/static/css/main.c8502a96.css.map",
+    "main.92c1967c.js.map": "/static/js/main.92c1967c.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.3ea3529d.chunk.js.map": "/static/js/487.3ea3529d.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
     "990.109c2489.chunk.js.map": "/static/js/990.109c2489.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.629c1a47.css",
-    "static/js/main.52d6c8a6.js"
+    "static/css/main.c8502a96.css",
+    "static/js/main.92c1967c.js"
   ]
 }
