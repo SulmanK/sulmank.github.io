@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const [imageError, setImageError] = useState(false);
+
   function openUrlInNewTab(url, name) {
     if (!url) {
       console.log(`URL for ${name} not found`);
@@ -11,14 +14,29 @@ export default function AchievementCard({cardInfo, isDark}) {
     win.focus();
   }
 
+  const handleImageLoad = () => {
+    console.log("Image loaded successfully:", cardInfo.title);
+    setImageLoaded(true);
+  };
+
+  const handleImageError = () => {
+    console.log("Image failed to load:", cardInfo.title);
+    setImageError(true);
+  };
+
   return (
-    <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
+    <div className={`${isDark ? "dark-mode" : ""} certificate-card mobile-card`}>
       <div className="certificate-image-div">
+        {!imageLoaded && !imageError && (
+          <div className="image-placeholder">Loading...</div>
+        )}
         <img
           src={cardInfo.image}
           alt={cardInfo.imageAlt || "Card Thumbnail"}
-          className="card-image"
-        ></img>
+          className={`card-image ${imageLoaded ? 'loaded' : ''}`}
+          onLoad={handleImageLoad}
+          onError={handleImageError}
+        />
       </div>
       <div className="certificate-detail-div">
         <h5 className={isDark ? "dark-mode card-title" : "card-title"}>
@@ -33,9 +51,7 @@ export default function AchievementCard({cardInfo, isDark}) {
           return (
             <span
               key={i}
-              className={
-                isDark ? "dark-mode certificate-tag" : "certificate-tag"
-              }
+              className={`${isDark ? "dark-mode" : ""} certificate-tag`}
               onClick={() => openUrlInNewTab(v.url, v.name)}
             >
               {v.name}
