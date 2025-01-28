@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4eed2bc5.css",
+    "main.css": "/static/css/main.66c0ec63.css",
     "main.js": "/static/js/main.f503cb8d.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.3ea3529d.chunk.js": "/static/js/487.3ea3529d.chunk.js",
@@ -32,7 +32,7 @@
     "static/media/PUBG_logo.webp": "/static/media/PUBG_logo.5d25a2492c4378efc35d.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
-    "main.4eed2bc5.css.map": "/static/css/main.4eed2bc5.css.map",
+    "main.66c0ec63.css.map": "/static/css/main.66c0ec63.css.map",
     "main.f503cb8d.js.map": "/static/js/main.f503cb8d.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.3ea3529d.chunk.js.map": "/static/js/487.3ea3529d.chunk.js.map",
@@ -40,7 +40,7 @@
     "990.109c2489.chunk.js.map": "/static/js/990.109c2489.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eed2bc5.css",
+    "static/css/main.66c0ec63.css",
     "static/js/main.f503cb8d.js"
   ]
 }
