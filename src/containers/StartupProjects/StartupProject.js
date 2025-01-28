@@ -52,6 +52,20 @@ export default function StartupProject() {
                       ></img>
                     </div>
                   ) : null}
+                  {project.demoVideo && (
+                    <div className="project-demo-video">
+                      <video 
+                        autoPlay 
+                        loop 
+                        muted 
+                        playsInline
+                        poster={project.image}
+                      >
+                        <source src={project.demoVideo} type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  )}
                   <div className="project-detail">
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}

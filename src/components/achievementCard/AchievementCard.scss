@@ -117,3 +117,28 @@
 span.certificate-tag:hover {
   background: $buttonHover;
 }
+.demo-video-container {
+  width: calc(100% + 3rem);
+  margin: 1rem -1.5rem;
+  border-radius: 0;
+  overflow: hidden;
+  background: $darkBackground;
+  
+  video {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 768px) {
+    width: calc(100% + 2rem);
+    margin: 1rem -1rem;
+    
+    video {
+      max-height: 250px;
+    }
+  }
+}
