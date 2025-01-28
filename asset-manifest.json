@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.66c0ec63.css",
-    "main.js": "/static/js/main.f503cb8d.js",
+    "main.js": "/static/js/main.3f4dfa4a.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.3ea3529d.chunk.js": "/static/js/487.3ea3529d.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.109c2489.chunk.js": "/static/js/990.109c2489.chunk.js",
-    "static/media/video-game-recsys-demo.mp4": "/static/media/video-game-recsys-demo.ad57d34b374a1789afe3.mp4",
-    "static/media/pubg-demo.mp4": "/static/media/pubg-demo.9b2e4f58a8b4734cb179.mp4",
-    "static/media/recsys-demo.mp4": "/static/media/recsys-demo.dec1d44b7e7b2ca8d6a1.mp4",
-    "static/media/fingercramp-demo.mp4": "/static/media/fingercramp-demo.4feb9340c75b020c0e2c.mp4",
-    "static/media/cwow-demo.mp4": "/static/media/cwow-demo.786c1897e1d4bc447c98.mp4",
-    "static/media/backblaze-demo.mp4": "/static/media/backblaze-demo.756e6abf353b9035fda1.mp4",
-    "static/media/reddit-demo.mp4": "/static/media/reddit-demo.7a60e996edb18b0877df.mp4",
-    "static/media/ebay-demo.mp4": "/static/media/ebay-demo.50aefd0df22680cb3d58.mp4",
+    "static/media/video-game-recsys-demo.mp4": "/static/media/video-game-recsys-demo.705dab2eb51b7753bb81.mp4",
+    "static/media/pubg-demo.mp4": "/static/media/pubg-demo.9b99367cb844e46e3abb.mp4",
+    "static/media/recsys-demo.mp4": "/static/media/recsys-demo.fb441805549ea4efc8e2.mp4",
+    "static/media/fingercramp-demo.mp4": "/static/media/fingercramp-demo.0154b36261c4424373aa.mp4",
+    "static/media/cwow-demo.mp4": "/static/media/cwow-demo.409db507ae641bcb3cf5.mp4",
+    "static/media/backblaze-demo.mp4": "/static/media/backblaze-demo.46eff8a44f2ae507bd64.mp4",
+    "static/media/reddit-demo.mp4": "/static/media/reddit-demo.de1ef2d7b96d222e9ea1.mp4",
+    "static/media/ebay-demo.mp4": "/static/media/ebay-demo.91ec13698fefcee35d89.mp4",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/capcom-pro-tour-logo.png": "/static/media/capcom-pro-tour-logo.383a93e318f814186cb4.png",
     "static/media/gb_logo.webp": "/static/media/gb_logo.3e505cff36f4dd346b7a.webp",
@@ -33,7 +33,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
     "main.66c0ec63.css.map": "/static/css/main.66c0ec63.css.map",
-    "main.f503cb8d.js.map": "/static/js/main.f503cb8d.js.map",
+    "main.3f4dfa4a.js.map": "/static/js/main.3f4dfa4a.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.3ea3529d.chunk.js.map": "/static/js/487.3ea3529d.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.66c0ec63.css",
-    "static/js/main.f503cb8d.js"
+    "static/js/main.3f4dfa4a.js"
   ]
 }
