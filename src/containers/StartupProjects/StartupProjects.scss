@@ -23,13 +23,34 @@
 
 .projects-cards-div {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin-top: 20px;
+  
+  // Use grid only when there are multiple cards
+  &:has(> :nth-child(2)) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  // Center single card
+  &:not(:has(> :nth-child(2))) {
+    display: flex;
+    justify-content: center;
+    
+    // Limit width of single card
+    > * {
+      max-width: 600px;
+      width: 100%;
+    }
+  }
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     padding: 10px;
+    
+    // Adjust single card width on mobile
+    &:not(:has(> :nth-child(2))) > * {
+      max-width: 100%;
+    }
   }
 }
 
