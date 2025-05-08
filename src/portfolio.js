@@ -255,6 +255,17 @@ const achievementSection = {
   subtitle: "",
   achievementsCards: [
     {
+      title: "Concept Visualizer",
+      subtitle: "Translating written brand concepts into compelling visual assets (logos, palettes) is often complex and time-consuming. This project provides an AI-powered solution to automate this process, enabling users to quickly generate and visualize diverse design ideas directly from text descriptions.  ",
+      image: require("./assets/images/cvLogo.png"),
+      demoVideo: require("./assets/videos/cv-demo.mp4"),
+      footerLink: [
+        { name: "Github", url: "https://github.com/SulmanK/concept_visualizer"},
+       // { name: "Blog: Building an AI-Powered Data Pipeline (On-Prem)", url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28On-Prem%29/" },
+        { name: "Application", url: "https://concept-visualizer-blush.vercel.app/"}
+      ]
+    },
+    {
       title: "Reddit AI Pulse: Building an AI-Powered Data Pipeline",
       subtitle: "The sheer volume of data on Reddit makes it challenging to manually track and understand the key themes and sentiments within various subreddits. This project addresses the need for an automated system that can efficiently collect, process, and analyze Reddit data to extract meaningful insights.   ",
       image: require("./assets/images/reddit_logo.png"),
