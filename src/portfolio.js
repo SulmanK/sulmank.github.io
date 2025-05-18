@@ -234,7 +234,7 @@ const bigProjects = {
       image: require("./assets/images/capcom-pro-tour-logo.png"),
       projectName: "Capcom Pro Tour",
       projectDesc: "Premier league for competitive fighting games",
-      demoVideo: require("./assets/videos/fingercramp-demo.mp4"),
+      demoVideo: require("./assets/videos/fingercramp-demo.webm"),
       footerLink: [
         {
           name: "Visit Website",
@@ -258,7 +258,7 @@ const achievementSection = {
       title: "Concept Visualizer",
       subtitle: "Translating written brand concepts into compelling visual assets (logos, palettes) is often complex and time-consuming. This project provides an AI-powered solution to automate this process, enabling users to quickly generate and visualize diverse design ideas directly from text descriptions.  ",
       image: require("./assets/images/cvLogo.png"),
-      demoVideo: require("./assets/videos/cv-demo.mp4"),
+      demoVideo: require("./assets/videos/cv-demo.webm"),
       footerLink: [
         { name: "Github", url: "https://github.com/SulmanK/concept_visualizer"},
        // { name: "Blog: Building an AI-Powered Data Pipeline (On-Prem)", url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28On-Prem%29/" },
@@ -269,7 +269,7 @@ const achievementSection = {
       title: "Reddit AI Pulse: Building an AI-Powered Data Pipeline",
       subtitle: "The sheer volume of data on Reddit makes it challenging to manually track and understand the key themes and sentiments within various subreddits. This project addresses the need for an automated system that can efficiently collect, process, and analyze Reddit data to extract meaningful insights.   ",
       image: require("./assets/images/reddit_logo.png"),
-      demoVideo: require("./assets/videos/reddit-demo.mp4"),
+      demoVideo: require("./assets/videos/reddit-demo.webm"),
       footerLink: [
         { name: "Github: On-Prem Implementation", url: "https://github.com/SulmanK/reddit_ai_pulse_local_public"},
         { name: "Github: Cloud Implementation", url: "https://github.com/SulmanK/reddit_ai_pulse_cloud_public"},
@@ -282,7 +282,7 @@ const achievementSection = {
       title: "Ekstra Bladet RecSys Challenge 2024",
       subtitle: "The Ekstra Bladet RecSys Challenge aims to predict which article a user will click on from a list of articles that were seen during a specific impression. Utilizing the user's click history, session details (like time and device used), and personal metadata (including gender and age), along with a list of candidate news articles listed in an impression log, the challenge's objective is to rank the candidate articles based on the user's personal preferences.   ",
       image: require("./assets/images/ekstraLogo.webp"),
-      demoVideo: require("./assets/videos/recsys-demo.mp4"),
+      demoVideo: require("./assets/videos/recsys-demo.webm"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/2024-Recsys-Challenge" },
         { name: "Blog: Exploratory Data Analysis", url: "https://sulmank.github.io/Blog/writing/2024/04/25/recsys-challenge-2024-eda/" },
@@ -293,7 +293,7 @@ const achievementSection = {
       title: "eBay: Scraping Phone Auctions",
       subtitle: "With the abundance in the number of phones listed on online marketplaces, it overwhelms the user in selecting satisfactory auctions. My approach includes building a web-scraping tool to collect data on phone auctions and calculating various metrics to aid in auction selection.   ",
       image: require("./assets/images/ebay_logo.png"),
-      demoVideo: require("./assets/videos/ebay-demo.mp4"),
+      demoVideo: require("./assets/videos/ebay-demo.webm"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/eBay-web-crawler-phone-auctions" },
         { name: "Code", url: "https://github.com/SulmanK/eBay-web-crawler-phone-auctions/tree/main/Dashboard" },
@@ -304,7 +304,7 @@ const achievementSection = {
       title: "Video Game Recommendation Engine",
       subtitle: "With the number of products increasing exponentially, it burdens the consumer in which products to purchase. A novel solution is the use of recommender systems (engines) to 'recommend' relevant products to the consumers based on their preferences. Applications of recommender systems include areas such as playlist generators for video and music services like Netflix, YouTube, and Spotify. Additionally, product recommendations for services such as Amazon.  Our goal is to build a video game recommendation engine, which utilizes a content-based approached to identify relevant titles using various similarity methods.  ",
       image: require("./assets/images/gb_logo.webp"),
-      demoVideo: require("./assets/videos/video-game-recsys-demo.mp4"),
+      demoVideo: require("./assets/videos/video-game-recsys-demo.webm"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/Video-Game-Recommendation-Engine" },
         { name: "Code", url: "https://github.com/SulmanK/Video-Game-Recommendation-Engine/blob/master/Video%20Game%20Recommendation%20Engine.ipynb" },
@@ -316,7 +316,7 @@ const achievementSection = {
       title: "Predicting Customer Churn in World of Warcraft",
     subtitle: "World of Warcraft (WoW) is a massively multiplayer online video game released on November 23, 2004, by Blizzard Entertainment. WoW utilizes a subscription-based financial model. Therefore, customer churn is an essential indicator in optimizing financial returns. We implemented a model to predict whether a user will churn across a six-month period.",
       image: require("./assets/images/World_of_Warcraft_logo.webp"),
-      demoVideo: require("./assets/videos/cwow-demo.mp4"),
+      demoVideo: require("./assets/videos/cwow-demo.webm"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/Customer-Churn-in-World-of-Warcraft" },
         { name: "Publication", url: "https://arxiv.org/abs/2006.15735" },
@@ -330,7 +330,7 @@ const achievementSection = {
       title: "Clustering Player Behavior in PlayerUnknown's Battlegrounds for Hackers",
     subtitle: "Playerunknown's Battleground (PUBG) is a video game, which set the standard for preceding games in the Battle Royale genre. With the massive popularity comes with a high influx of players using third-party programs to gain an unfair advantage. Our goal is to apply customer segmentation techniques such as clustering to identify illicit behavior. ",
       image: require("./assets/images/PUBG_logo.webp"),
-      demoVideo: require("./assets/videos/pubg-demo.mp4"),
+      demoVideo: require("./assets/videos/pubg-demo.webm"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters" },
         { name: "Code", url: "https://github.com/SulmanK/PUBG_clustering-player-behavior-for-cheaters" },
@@ -343,7 +343,7 @@ const achievementSection = {
       title: "Modelling Hard Drive Reliability",
     subtitle: "Data is an integral component of our society. From the simple caloric deficits collected in your apple watch to the user history in your Netflix account, data is used in a myriad of applications. With such an abundance of data stored daily, how is it stored? The solution is computer backup or cloud storage services such as Backblaze, which is a world leader in computer backup and storage. Our objective is to improve upon Backblaze's baseline model in predicting hard drive failure by investigating additional S.M.A.R.T attributes (features). ",
       image: require("./assets/images/backblaze_logo.webp"),
-      demoVideo: require("./assets/videos/backblaze-demo.mp4"),
+      demoVideo: require("./assets/videos/backblaze-demo.webm"),
       footerLink: [
     { name: "Github", url: "https://github.com/SulmanK/Predicting-Hard-Drive-Failure" },
         { name: "Report", url: "https://github.com/SulmanK/Predicting-Hard-Drive-Failure/blob/master/Predicting%20Hard%20Drive%20Failure_Report.pdf" },

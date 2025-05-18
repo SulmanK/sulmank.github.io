@@ -60,8 +60,9 @@ export default function StartupProject() {
                         muted 
                         playsInline
                         poster={project.image}
+                        preload="metadata"
                       >
-                        <source src={project.demoVideo} type="video/mp4" />
+                        <source src={project.demoVideo} type="video/webm" />
                         Your browser does not support the video tag.
                       </video>
                     </div>

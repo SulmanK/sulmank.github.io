@@ -23,8 +23,9 @@ export default function AchievementCard({cardInfo, isDark}) {
             muted 
             playsInline
             poster={cardInfo.image}
+            preload="metadata"
           >
-            <source src={cardInfo.demoVideo || cardInfo.video} type="video/mp4" />
+            <source src={cardInfo.demoVideo || cardInfo.video} type="video/webm" />
             Your browser does not support the video tag.
           </video>
         </div>
