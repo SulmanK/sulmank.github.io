@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
-  console.log("Card Info:", cardInfo); // Debug log
+  const [isPlaying, setIsPlaying] = useState(false);
+  const videoRef = useRef(null);
+  
+  const handlePlayClick = () => {
+    setIsPlaying(true);
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
+  };
   
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
@@ -18,16 +26,26 @@ export default function AchievementCard({cardInfo, isDark}) {
       {(cardInfo.demoVideo || cardInfo.video) && (
         <div className="demo-video-container">
           <video 
-            autoPlay 
+            ref={videoRef}
             loop 
             muted 
             playsInline
             poster={cardInfo.image}
             preload="auto"
+            controls={isPlaying}
           >
             <source src={(cardInfo.demoVideo || cardInfo.video).replace(/\.webm$/, ".mp4")} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
+          
+          {!isPlaying && (
+            <div className="video-play-button" onClick={handlePlayClick}>
+              <svg viewBox="0 0 64 64" width="64" height="64">
+                <circle cx="32" cy="32" r="32" fill="rgba(0, 0, 0, 0.5)" />
+                <path d="M26,20 L26,44 L44,32 L26,20 Z" fill="white" />
+              </svg>
+            </div>
+          )}
         </div>
       )}
 
