@@ -1,57 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
-  const videoRef = useRef(null);
-  
-  useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.1
-    };
-    
-    const handleVideoLoad = () => {
-      if (videoRef.current) {
-        videoRef.current.classList.add('loaded');
-      }
-    };
-
-    const handleIntersection = (entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const video = entry.target;
-          
-          // Start loading the video
-          if (video.paused) {
-            video.play()
-              .then(() => {
-                handleVideoLoad();
-              })
-              .catch(error => {
-                console.error("Error playing video:", error);
-              });
-          }
-          
-          observer.unobserve(video);
-        }
-      });
-    };
-    
-    const observer = new IntersectionObserver(handleIntersection, options);
-    
-    if (videoRef.current) {
-      videoRef.current.addEventListener('loadeddata', handleVideoLoad);
-      observer.observe(videoRef.current);
-    }
-    
-    return () => {
-      if (videoRef.current) {
-        videoRef.current.removeEventListener('loadeddata', handleVideoLoad);
-        observer.unobserve(videoRef.current);
-      }
-    };
-  }, []);
+  console.log("Card Info:", cardInfo); // Debug log
   
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
@@ -67,19 +18,16 @@ export default function AchievementCard({cardInfo, isDark}) {
       {(cardInfo.demoVideo || cardInfo.video) && (
         <div className="demo-video-container">
           <video 
-            ref={videoRef}
+            autoPlay 
             loop 
             muted 
             playsInline
             poster={cardInfo.image}
             preload="none"
+            loading="lazy"
           >
             <source src={cardInfo.demoVideo || cardInfo.video} type="video/webm" />
-            {/* Extract filename without extension and append mp4 extension */}
-            <source 
-              src={(cardInfo.demoVideo || cardInfo.video).toString().replace('.webm', '.mp4')} 
-              type="video/mp4" 
-            />
+            <source src={(cardInfo.demoVideo || cardInfo.video).replace('.webm', '.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

@@ -207,11 +207,11 @@
 }
 
 .project-demo-video {
-  width: calc(100% + 3rem);
-  margin: 1rem -1.5rem;
-  border-radius: 0;
+  width: 100%;
+  margin: 0.5rem 0;
+  border-radius: 10px;
   overflow: hidden;
-  background: $darkBackground;
+  position: relative;
   
   video {
     width: 100%;
@@ -220,19 +220,10 @@
     object-fit: cover;
     display: block;
     margin: 0 auto;
-    will-change: opacity;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-  }
-
-  video.loaded {
-    opacity: 1;
+    background-color: #f9f9f9; /* Light placeholder color */
   }
 
   @media (max-width: 768px) {
-    width: calc(100% + 2rem);
-    margin: 1rem -1rem;
-    
     video {
       max-height: 250px;
     }

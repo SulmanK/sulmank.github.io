@@ -131,13 +131,6 @@ span.certificate-tag:hover {
     object-fit: cover;
     display: block;
     margin: 0 auto;
-    will-change: opacity;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-  }
-
-  video.loaded {
-    opacity: 1;
   }
 
   @media (max-width: 768px) {

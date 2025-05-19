@@ -1,4 +1,4 @@
-import React, {useContext, useRef, useEffect} from "react";
+import React, {useContext} from "react";
 import "./StartupProjects.scss";
 import {bigProjects} from "../../portfolio";
 import {Fade} from "react-awesome-reveal";
@@ -17,81 +17,6 @@ export default function StartupProject() {
   if (!bigProjects.display) {
     return null;
   }
-  
-  const VideoComponent = ({project}) => {
-    const videoRef = useRef(null);
-    
-    useEffect(() => {
-      const options = {
-        root: null,
-        rootMargin: '0px',
-        threshold: 0.1
-      };
-      
-      const handleVideoLoad = () => {
-        if (videoRef.current) {
-          videoRef.current.classList.add('loaded');
-        }
-      };
-  
-      const handleIntersection = (entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const video = entry.target;
-            
-            // Start loading the video
-            if (video.paused) {
-              video.play()
-                .then(() => {
-                  handleVideoLoad();
-                })
-                .catch(error => {
-                  console.error("Error playing video:", error);
-                });
-            }
-            
-            observer.unobserve(video);
-          }
-        });
-      };
-      
-      const observer = new IntersectionObserver(handleIntersection, options);
-      
-      if (videoRef.current) {
-        videoRef.current.addEventListener('loadeddata', handleVideoLoad);
-        observer.observe(videoRef.current);
-      }
-      
-      return () => {
-        if (videoRef.current) {
-          videoRef.current.removeEventListener('loadeddata', handleVideoLoad);
-          observer.unobserve(videoRef.current);
-        }
-      };
-    }, []);
-    
-    return (
-      <div className="project-demo-video">
-        <video 
-          ref={videoRef}
-          loop 
-          muted 
-          playsInline
-          poster={project.image}
-          preload="none"
-        >
-          <source src={project.demoVideo} type="video/webm" />
-          {/* Extract filename without extension and append mp4 extension */}
-          <source 
-            src={project.demoVideo.toString().replace('.webm', '.mp4')} 
-            type="video/mp4" 
-          />
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    );
-  };
-  
   return (
     <Fade direction="up" triggerOnce>
       <div className="main" id="projects">
@@ -127,7 +52,23 @@ export default function StartupProject() {
                       ></img>
                     </div>
                   ) : null}
-                  {project.demoVideo && <VideoComponent project={project} />}
+                  {project.demoVideo && (
+                    <div className="project-demo-video">
+                      <video 
+                        autoPlay 
+                        loop 
+                        muted 
+                        playsInline
+                        poster={project.image}
+                        preload="none"
+                        loading="lazy"
+                      >
+                        <source src={project.demoVideo} type="video/webm" />
+                        <source src={project.demoVideo.replace('.webm', '.mp4')} type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  )}
                   <div className="project-detail">
                     <h5
                       className={isDark ? "dark-mode card-title" : "card-title"}

@@ -23,12 +23,13 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "node fetch.js && react-scripts start",
-    "build": "node fetch.js && react-scripts build",
+    "build": "node fetch.js && react-scripts build && npm run optimize-videos",
     "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
-    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
+    "check-format": "prettier -c \"./**/*.{js,css,json,scss}\"",
+    "optimize-videos": "node optimize-videos.js"
   },
   "eslintConfig": {
     "extends": "react-app"
