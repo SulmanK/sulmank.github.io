@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.3b07e539.css",
-    "main.js": "/static/js/main.976af119.js",
+    "main.js": "/static/js/main.d6ab9e4e.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.3ea3529d.chunk.js": "/static/js/487.3ea3529d.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
     "static/js/990.109c2489.chunk.js": "/static/js/990.109c2489.chunk.js",
-    "static/media/recsys-demo.webm": "/static/media/recsys-demo.0e6b7020806f284b949a.webm",
-    "static/media/fingercramp-demo.webm": "/static/media/fingercramp-demo.2609a98082fa16511362.webm",
-    "static/media/backblaze-demo.webm": "/static/media/backblaze-demo.0d75485d4c7b80c34f74.webm",
-    "static/media/reddit-demo.webm": "/static/media/reddit-demo.1ac17fc5020dabd2837d.webm",
-    "static/media/video-game-recsys-demo.webm": "/static/media/video-game-recsys-demo.3c380d031cbb2e93b71b.webm",
-    "static/media/ebay-demo.webm": "/static/media/ebay-demo.c7b1d3dee8a5bdf4b39d.webm",
-    "static/media/cv-demo.webm": "/static/media/cv-demo.6ebe696f6cc65a8c8ca4.webm",
-    "static/media/pubg-demo.webm": "/static/media/pubg-demo.42ba69f887c1d600bdf6.webm",
-    "static/media/cwow-demo.webm": "/static/media/cwow-demo.7dbef1d06d231d838c09.webm",
+    "static/media/video-game-recsys-demo.mp4": "/static/media/video-game-recsys-demo.705dab2eb51b7753bb81.mp4",
+    "static/media/pubg-demo.mp4": "/static/media/pubg-demo.9b99367cb844e46e3abb.mp4",
+    "static/media/recsys-demo.mp4": "/static/media/recsys-demo.fb441805549ea4efc8e2.mp4",
+    "static/media/cv-demo.mp4": "/static/media/cv-demo.fba772e3d5a85d4d1fdf.mp4",
+    "static/media/fingercramp-demo.mp4": "/static/media/fingercramp-demo.0154b36261c4424373aa.mp4",
+    "static/media/cwow-demo.mp4": "/static/media/cwow-demo.409db507ae641bcb3cf5.mp4",
+    "static/media/backblaze-demo.mp4": "/static/media/backblaze-demo.46eff8a44f2ae507bd64.mp4",
+    "static/media/reddit-demo.mp4": "/static/media/reddit-demo.de1ef2d7b96d222e9ea1.mp4",
+    "static/media/ebay-demo.mp4": "/static/media/ebay-demo.91ec13698fefcee35d89.mp4",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/capcom-pro-tour-logo.png": "/static/media/capcom-pro-tour-logo.383a93e318f814186cb4.png",
     "static/media/gb_logo.webp": "/static/media/gb_logo.3e505cff36f4dd346b7a.webp",
@@ -35,7 +35,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
     "main.3b07e539.css.map": "/static/css/main.3b07e539.css.map",
-    "main.976af119.js.map": "/static/js/main.976af119.js.map",
+    "main.d6ab9e4e.js.map": "/static/js/main.d6ab9e4e.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.3ea3529d.chunk.js.map": "/static/js/487.3ea3529d.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.3b07e539.css",
-    "static/js/main.976af119.js"
+    "static/js/main.d6ab9e4e.js"
   ]
 }
