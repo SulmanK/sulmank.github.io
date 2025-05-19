@@ -26,6 +26,8 @@ export default function AchievementCard({cardInfo, isDark}) {
             preload="metadata"
           >
             <source src={cardInfo.demoVideo || cardInfo.video} type="video/webm" />
+            {/* Extract mp4 name from webm filename */}
+            <source src={(cardInfo.demoVideo || cardInfo.video).replace('.webm', '.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>

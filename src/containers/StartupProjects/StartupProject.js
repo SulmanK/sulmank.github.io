@@ -63,6 +63,7 @@ export default function StartupProject() {
                         preload="metadata"
                       >
                         <source src={project.demoVideo} type="video/webm" />
+                        <source src={project.demoVideo.replace('.webm', '.mp4')} type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
                     </div>
