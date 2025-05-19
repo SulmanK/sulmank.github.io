@@ -132,6 +132,12 @@ span.certificate-tag:hover {
     object-fit: cover;
     display: block;
     margin: 0 auto;
+    
+    /* Hide volume control */
+    &::-webkit-media-controls-volume-slider,
+    &::-webkit-media-controls-mute-button {
+      display: none !important;
+    }
   }
 
   @media (max-width: 768px) {

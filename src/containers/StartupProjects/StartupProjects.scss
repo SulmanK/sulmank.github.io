@@ -221,6 +221,12 @@
     display: block;
     margin: 0 auto;
     background-color: #f9f9f9; /* Light placeholder color */
+    
+    /* Hide volume control */
+    &::-webkit-media-controls-volume-slider,
+    &::-webkit-media-controls-mute-button {
+      display: none !important;
+    }
   }
 
   @media (max-width: 768px) {

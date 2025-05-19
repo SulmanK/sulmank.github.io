@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
@@ -8,9 +8,31 @@ export default function AchievementCard({cardInfo, isDark}) {
   const handlePlayClick = () => {
     setIsPlaying(true);
     if (videoRef.current) {
+      videoRef.current.muted = true; // Force mute when playing
       videoRef.current.play();
     }
   };
+  
+  // Keep videos muted even if someone tries to unmute
+  useEffect(() => {
+    const videoElement = videoRef.current;
+    
+    const handleVolumeChange = () => {
+      if (videoElement && !videoElement.muted) {
+        videoElement.muted = true;
+      }
+    };
+    
+    if (videoElement) {
+      videoElement.addEventListener('volumechange', handleVolumeChange);
+    }
+    
+    return () => {
+      if (videoElement) {
+        videoElement.removeEventListener('volumechange', handleVolumeChange);
+      }
+    };
+  }, []);
   
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
@@ -33,6 +55,9 @@ export default function AchievementCard({cardInfo, isDark}) {
             poster={cardInfo.image}
             preload="auto"
             controls={isPlaying}
+            controlsList="nodownload nofullscreen noremoteplayback"
+            disablePictureInPicture
+            onVolumeChange={(e) => { e.target.muted = true; }}
           >
             <source src={(cardInfo.demoVideo || cardInfo.video).replace(/\.webm$/, ".mp4")} type="video/mp4" />
             Your browser does not support the video tag.

@@ -12,9 +12,30 @@ const ProjectCard = ({ project, isDark }) => {
   const handlePlayClick = () => {
     setIsPlaying(true);
     if (videoRef.current) {
+      videoRef.current.muted = true;
       videoRef.current.play();
     }
   };
+
+  React.useEffect(() => {
+    const videoElement = videoRef.current;
+    
+    const handleVolumeChange = () => {
+      if (videoElement && !videoElement.muted) {
+        videoElement.muted = true;
+      }
+    };
+    
+    if (videoElement) {
+      videoElement.addEventListener('volumechange', handleVolumeChange);
+    }
+    
+    return () => {
+      if (videoElement) {
+        videoElement.removeEventListener('volumechange', handleVolumeChange);
+      }
+    };
+  }, []);
 
   const openUrlInNewTab = (url) => {
     if (!url) {
@@ -51,6 +72,9 @@ const ProjectCard = ({ project, isDark }) => {
             poster={project.image}
             preload="auto"
             controls={isPlaying}
+            controlsList="nodownload nofullscreen noremoteplayback"
+            disablePictureInPicture
+            onVolumeChange={(e) => { e.target.muted = true; }}
           >
             <source src={project.demoVideo.replace(/\.webm$/, ".mp4")} type="video/mp4" />
             Your browser does not support the video tag.
