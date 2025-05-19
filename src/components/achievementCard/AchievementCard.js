@@ -1,46 +1,57 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [autoplayFailed, setAutoplayFailed] = useState(false);
   const videoRef = useRef(null);
   
-  // Try to autoplay when component mounts
   useEffect(() => {
-    if (videoRef.current) {
-      const playPromise = videoRef.current.play();
-      
-      if (playPromise !== undefined) {
-        playPromise
-          .then(() => {
-            setIsPlaying(true);
-          })
-          .catch(error => {
-            console.log("Autoplay prevented:", error);
-            setAutoplayFailed(true);
-          });
+    const options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1
+    };
+    
+    const handleVideoLoad = () => {
+      if (videoRef.current) {
+        videoRef.current.classList.add('loaded');
       }
+    };
+
+    const handleIntersection = (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const video = entry.target;
+          
+          // Start loading the video
+          if (video.paused) {
+            video.play()
+              .then(() => {
+                handleVideoLoad();
+              })
+              .catch(error => {
+                console.error("Error playing video:", error);
+              });
+          }
+          
+          observer.unobserve(video);
+        }
+      });
+    };
+    
+    const observer = new IntersectionObserver(handleIntersection, options);
+    
+    if (videoRef.current) {
+      videoRef.current.addEventListener('loadeddata', handleVideoLoad);
+      observer.observe(videoRef.current);
     }
+    
+    return () => {
+      if (videoRef.current) {
+        videoRef.current.removeEventListener('loadeddata', handleVideoLoad);
+        observer.unobserve(videoRef.current);
+      }
+    };
   }, []);
-  
-  const handleVideoClick = () => {
-    if (videoRef.current) {
-      if (videoRef.current.paused) {
-        videoRef.current.play()
-          .then(() => {
-            setIsPlaying(true);
-            setAutoplayFailed(false);
-          })
-          .catch(() => {
-            console.error("Video play failed even after click");
-          });
-      } else {
-        videoRef.current.pause();
-        setIsPlaying(false);
-      }
-    }
-  };
   
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
@@ -55,23 +66,20 @@ export default function AchievementCard({cardInfo, isDark}) {
       {/* Check both demoVideo and video properties */}
       {(cardInfo.demoVideo || cardInfo.video) && (
         <div className="demo-video-container">
-          {autoplayFailed && (
-            <div className="video-overlay" onClick={handleVideoClick}>
-              <div className="play-button">▶</div>
-            </div>
-          )}
           <video 
             ref={videoRef}
-            autoPlay
             loop 
             muted 
             playsInline
-            onClick={handleVideoClick}
             poster={cardInfo.image}
-            preload="metadata"
+            preload="none"
           >
             <source src={cardInfo.demoVideo || cardInfo.video} type="video/webm" />
-            <source src={(cardInfo.demoVideo || cardInfo.video).replace('.webm', '.mp4')} type="video/mp4" />
+            {/* Extract filename without extension and append mp4 extension */}
+            <source 
+              src={(cardInfo.demoVideo || cardInfo.video).toString().replace('.webm', '.mp4')} 
+              type="video/mp4" 
+            />
             Your browser does not support the video tag.
           </video>
         </div>
