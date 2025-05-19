@@ -261,7 +261,7 @@ const achievementSection = {
       demoVideo: require("./assets/videos/cv-demo.mp4"),
       footerLink: [
         { name: "Github", url: "https://github.com/SulmanK/concept_visualizer"},
-       // { name: "Blog: Building an AI-Powered Data Pipeline (On-Prem)", url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28On-Prem%29/" },
+        { name: "Blog", url: "https://sulmank.github.io/Blog/writing/2025/05/19/concept-visualizer-technical-deep-dive/"},
         { name: "Application", url: "https://concept-visualizer-blush.vercel.app/"}
       ]
     },
@@ -363,13 +363,20 @@ const blogSection = {
     "I'll be showcasing my latest projects here.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+
+      url: "https://sulmank.github.io/Blog/writing/2025/05/19/concept-visualizer-technical-deep-dive/",
+      title: "Concept Visualizer: An AI-Powered Design Tool - Technical Deep Dive",
+      description:
+        "This article will cover building an AI-Powered Design Tool. "
+    },
     
     {
 
       url: "https://sulmank.github.io/Blog/writing/2025/01/23/Reddit%20AI%20Pulse%20%28Cloud%29/",
       title: "From Reddit to Insights: Building an AI-Powered Data Pipeline with Gemini (Cloud)",
       description:
-        "This article will building an AI-Powered Data Pipeline on cloud. "
+        "This article will cover building an AI-Powered Data Pipeline on cloud. "
     },
 
 
@@ -378,7 +385,7 @@ const blogSection = {
       url: "https://sulmank.github.io/Blog/writing/2025/01/08/Reddit%20AI%20Pulse%20%28ON-PREM%29/",
       title: "From Reddit to Insights: Building an AI-Powered Data Pipeline with Gemini (ON-PREM)",
       description:
-        "This article will building an AI-Powered Data Pipeline on premise. "
+        "This article will cover building an AI-Powered Data Pipeline on premise. "
     },
     {
       url: "https://sulmank.github.io/Blog/writing/2024/12/15/recsys-challenge-2024-model-selection/",
