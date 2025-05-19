@@ -61,9 +61,7 @@ export default function StartupProject() {
                         playsInline
                         poster={project.image}
                         preload="auto"
-                        // loading="lazy"
                       >
-                        <source src={project.demoVideo} type="video/webm" />
                         <source src={project.demoVideo.replace(/\.webm$/, ".mp4")} type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>

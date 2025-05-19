@@ -24,9 +24,7 @@ export default function AchievementCard({cardInfo, isDark}) {
             playsInline
             poster={cardInfo.image}
             preload="auto"
-            // loading="lazy"
           >
-            <source src={cardInfo.demoVideo || cardInfo.video} type="video/webm" />
             <source src={(cardInfo.demoVideo || cardInfo.video).replace(/\.webm$/, ".mp4")} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
