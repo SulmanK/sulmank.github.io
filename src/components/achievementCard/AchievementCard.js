@@ -1,8 +1,46 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./AchievementCard.scss";
 
 export default function AchievementCard({cardInfo, isDark}) {
-  console.log("Card Info:", cardInfo); // Debug log
+  const [isPlaying, setIsPlaying] = useState(false);
+  const [autoplayFailed, setAutoplayFailed] = useState(false);
+  const videoRef = useRef(null);
+  
+  // Try to autoplay when component mounts
+  useEffect(() => {
+    if (videoRef.current) {
+      const playPromise = videoRef.current.play();
+      
+      if (playPromise !== undefined) {
+        playPromise
+          .then(() => {
+            setIsPlaying(true);
+          })
+          .catch(error => {
+            console.log("Autoplay prevented:", error);
+            setAutoplayFailed(true);
+          });
+      }
+    }
+  }, []);
+  
+  const handleVideoClick = () => {
+    if (videoRef.current) {
+      if (videoRef.current.paused) {
+        videoRef.current.play()
+          .then(() => {
+            setIsPlaying(true);
+            setAutoplayFailed(false);
+          })
+          .catch(() => {
+            console.error("Video play failed even after click");
+          });
+      } else {
+        videoRef.current.pause();
+        setIsPlaying(false);
+      }
+    }
+  };
   
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
@@ -17,16 +55,22 @@ export default function AchievementCard({cardInfo, isDark}) {
       {/* Check both demoVideo and video properties */}
       {(cardInfo.demoVideo || cardInfo.video) && (
         <div className="demo-video-container">
+          {autoplayFailed && (
+            <div className="video-overlay" onClick={handleVideoClick}>
+              <div className="play-button">▶</div>
+            </div>
+          )}
           <video 
-            autoPlay 
+            ref={videoRef}
+            autoPlay
             loop 
             muted 
             playsInline
+            onClick={handleVideoClick}
             poster={cardInfo.image}
             preload="metadata"
           >
             <source src={cardInfo.demoVideo || cardInfo.video} type="video/webm" />
-            {/* Extract mp4 name from webm filename */}
             <source src={(cardInfo.demoVideo || cardInfo.video).replace('.webm', '.mp4')} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
