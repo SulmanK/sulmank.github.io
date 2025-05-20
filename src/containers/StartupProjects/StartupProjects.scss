@@ -212,6 +212,7 @@
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  background: $darkBackground;
   
   video {
     width: 100%;
@@ -220,7 +221,6 @@
     object-fit: cover;
     display: block;
     margin: 0 auto;
-    background-color: #f9f9f9; /* Light placeholder color */
     
     /* Hide volume control */
     &::-webkit-media-controls-volume-slider,
