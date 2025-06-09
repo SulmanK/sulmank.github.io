@@ -261,7 +261,7 @@ const achievementSection = {
       demoVideo: require("./assets/videos/bd-demo.mp4"),
       footerLink: [
         { name: "Github", url: "https://github.com/SulmanK/BeatDebate"},
-        { name: "Blog", url: "https://sulmank.github.io/Blog/writing/2025/05/31/beatdebate-technical-deep-dive//"},
+        { name: "Blog", url: "https://sulmank.github.io/Blog/writing/2025/05/31/beatdebate-technical-deep-dive/"},
         { name: "Application", url: "https://huggingface.co/spaces/SulmanK/BeatDebate"},
         { name: "Paper", url: "https://arxiv.org/submit/6524448/view"}
       ]
@@ -375,6 +375,14 @@ const blogSection = {
     "I'll be showcasing my latest projects here.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+
+      url: "https://sulmank.github.io/Blog/writing/2025/05/31/beatdebate-technical-deep-dive/",
+      title: "BeatDebate: A Chat-Driven Music Recommender System - Technical Deep Dive",
+      description:
+        "This article will cover building a multi-agent music recommender system. "
+    },
+
     {
 
       url: "https://sulmank.github.io/Blog/writing/2025/05/19/concept-visualizer-technical-deep-dive/",
