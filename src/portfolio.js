@@ -255,6 +255,18 @@ const achievementSection = {
   subtitle: "",
   achievementsCards: [
     {
+      title: "BeatDebate",
+      subtitle: "BeatDebate, a chat-driven music recommender system built on a multi-agent architecture that interprets natural language queries to generate personalized and explainable music recommendations. Developed for the AgentX (UC Berkeley RDI) competition, the system includes planning and evaluation components designed to surface underrepresented tracks and improve user engagement. This work demonstrates how strategic coordination among language agents can support complex reasoning tasks in real-world applications.  ",
+      image: require("./assets/images/bdLogo.png"),
+      demoVideo: require("./assets/videos/bd-demo.mp4"),
+      footerLink: [
+        { name: "Github", url: "https://github.com/SulmanK/BeatDebate"},
+        { name: "Blog", url: "https://sulmank.github.io/Blog/writing/2025/05/31/beatdebate-technical-deep-dive//"},
+        { name: "Application", url: "https://huggingface.co/spaces/SulmanK/BeatDebate"},
+        { name: "Paper", url: "https://arxiv.org/submit/6524448/view"}
+      ]
+    },
+    {
       title: "Concept Visualizer",
       subtitle: "Translating written brand concepts into compelling visual assets (logos, palettes) is often complex and time-consuming. This project provides an AI-powered solution to automate this process, enabling users to quickly generate and visualize diverse design ideas directly from text descriptions.  ",
       image: require("./assets/images/cvLogo.png"),
