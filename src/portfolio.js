@@ -263,7 +263,7 @@ const achievementSection = {
         { name: "Github", url: "https://github.com/SulmanK/BeatDebate"},
         { name: "Blog", url: "https://sulmank.github.io/Blog/writing/2025/05/31/beatdebate-technical-deep-dive/"},
         { name: "Application", url: "https://huggingface.co/spaces/SulmanK/BeatDebate"},
-        { name: "Paper", url: "https://arxiv.org/submit/6524448/view"}
+        { name: "Paper", url: "https://github.com/SulmanK/BeatDebate/blob/main/Design/Research%20Paper/BeatDebate_%20A%20Multi-Agent%20System%20with%20Strategic%20Planning%20for%20Explainable%20Music%20Recommendation.pdf"}
       ]
     },
     {
