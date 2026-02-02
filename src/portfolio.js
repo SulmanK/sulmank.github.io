@@ -255,6 +255,17 @@ const achievementSection = {
   subtitle: "",
   achievementsCards: [
     {
+      title: "Werewolf Arena Benchmark: An Agentic Social Deduction Benchmark",
+      subtitle: "Werewolf Arena Benchmark, an AgentBeats-based social-deduction evaluation suite that measures how LLM agents reason, persuade, and coordinate under hidden roles. It standardizes A2A agent submissions, runs controlled role-balanced evaluations, and reports richer metrics beyond win rate (e.g., vote quality and role effectiveness) alongside safety signals. This work demonstrates how reproducible harnesses can turn multi-agent gameplay into a practical, community-scale benchmark.",
+      image: require("./assets/images/werewolf-arena-benchmark-logo.png"),
+      demoVideo: require("./assets/videos/werewolf-arena-benchmark-demo.mp4"),
+      footerLink: [
+        { name: "Github", url: "https://github.com/SulmanK/Werewolf-Arena-Benchmark"},
+        { name: "Blog", url: "https://sulmank.github.io/Blog/writing/2026/02/01/werewolf-social-deduction-agentbeats"},
+        { name: "Leaderboard", url: "https://agentbeats.dev/SulmanK/werewolfarena"}
+      ]
+    },
+    {
       title: "BeatDebate",
       subtitle: "BeatDebate, a chat-driven music recommender system built on a multi-agent architecture that interprets natural language queries to generate personalized and explainable music recommendations. Developed for the AgentX (UC Berkeley RDI) competition, the system includes planning and evaluation components designed to surface underrepresented tracks and improve user engagement. This work demonstrates how strategic coordination among language agents can support complex reasoning tasks in real-world applications.  ",
       image: require("./assets/images/bdLogo.png"),
@@ -375,6 +386,13 @@ const blogSection = {
     "I'll be showcasing my latest projects here.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+      url: "https://sulmank.github.io/Blog/writing/2026/02/01/werewolf-social-deduction-agentbeats",
+      title: "Werewolf Arena Benchmark: An Agentic Social Deduction Benchmark",
+      description:
+        "This article will cover the Werewolf Arena Benchmark and its AgentBeats-based evaluation suite for social deduction agents."
+    },
+
     {
 
       url: "https://sulmank.github.io/Blog/writing/2025/05/31/beatdebate-technical-deep-dive/",
