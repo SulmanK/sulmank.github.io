@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.064e7838.css",
-    "main.js": "/static/js/main.e51cbbc7.js",
+    "main.js": "/static/js/main.302922fd.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.3ea3529d.chunk.js": "/static/js/487.3ea3529d.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -16,7 +16,9 @@
     "static/media/backblaze-demo.mp4": "/static/media/backblaze-demo.46eff8a44f2ae507bd64.mp4",
     "static/media/reddit-demo.mp4": "/static/media/reddit-demo.de1ef2d7b96d222e9ea1.mp4",
     "static/media/ebay-demo.mp4": "/static/media/ebay-demo.91ec13698fefcee35d89.mp4",
+    "static/media/werewolf-arena-benchmark-demo.mp4": "/static/media/werewolf-arena-benchmark-demo.be7894a96b4d72a62f82.mp4",
     "static/media/bdLogo.png": "/static/media/bdLogo.4eaef477102fb5e78d25.png",
+    "static/media/werewolf-arena-benchmark-logo.png": "/static/media/werewolf-arena-benchmark-logo.b6b846173fd40024345b.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/capcom-pro-tour-logo.png": "/static/media/capcom-pro-tour-logo.383a93e318f814186cb4.png",
     "static/media/gb_logo.webp": "/static/media/gb_logo.3e505cff36f4dd346b7a.webp",
@@ -37,7 +39,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
     "main.064e7838.css.map": "/static/css/main.064e7838.css.map",
-    "main.e51cbbc7.js.map": "/static/js/main.e51cbbc7.js.map",
+    "main.302922fd.js.map": "/static/js/main.302922fd.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.3ea3529d.chunk.js.map": "/static/js/487.3ea3529d.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -45,6 +47,6 @@
   },
   "entrypoints": [
     "static/css/main.064e7838.css",
-    "static/js/main.e51cbbc7.js"
+    "static/js/main.302922fd.js"
   ]
 }
