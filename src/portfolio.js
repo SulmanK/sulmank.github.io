@@ -200,6 +200,17 @@ const workExperiences = {
       ]
     },
     {
+      role: "AI Trainer & Reviewer",
+      company: "Mercor Intelligence",
+      companylogo: require("./assets/images/mercor_logo.jpg"),
+      date: "April 2026 – Present",
+      desc: "",
+      descBullets: [
+        "Developed training tasks and evaluation rubrics spanning software engineering, data science, and machine learning domains to support large-scale AI model fine-tuning.",
+        "Reviewed contributor-submitted tasks for production readiness, evaluating accuracy, clarity, and adherence to annotation quality standards.",
+      ]
+    },
+    {
       role: "Data Scientist",  
       company: "Fingercramp",
       companylogo: require("./assets/images/fingercrampLogo.webp"),
