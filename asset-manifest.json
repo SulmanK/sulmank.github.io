@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.064e7838.css",
-    "main.js": "/static/js/main.302922fd.js",
+    "main.js": "/static/js/main.25100ab6.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.3ea3529d.chunk.js": "/static/js/487.3ea3529d.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -17,6 +17,7 @@
     "static/media/reddit-demo.mp4": "/static/media/reddit-demo.de1ef2d7b96d222e9ea1.mp4",
     "static/media/ebay-demo.mp4": "/static/media/ebay-demo.91ec13698fefcee35d89.mp4",
     "static/media/werewolf-arena-benchmark-demo.mp4": "/static/media/werewolf-arena-benchmark-demo.be7894a96b4d72a62f82.mp4",
+    "static/media/gpu-scheduler.webm": "/static/media/gpu-scheduler.b642166819e110a61fd8.webm",
     "static/media/bdLogo.png": "/static/media/bdLogo.4eaef477102fb5e78d25.png",
     "static/media/werewolf-arena-benchmark-logo.png": "/static/media/werewolf-arena-benchmark-logo.b6b846173fd40024345b.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -36,10 +37,11 @@
     "static/media/vtLogo.png": "/static/media/vtLogo.049cc614be1d66019d48.png",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/PUBG_logo.webp": "/static/media/PUBG_logo.5d25a2492c4378efc35d.webp",
+    "static/media/openenv_logo.webp": "/static/media/openenv_logo.18e65333ff6685556522.webp",
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
     "main.064e7838.css.map": "/static/css/main.064e7838.css.map",
-    "main.302922fd.js.map": "/static/js/main.302922fd.js.map",
+    "main.25100ab6.js.map": "/static/js/main.25100ab6.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.3ea3529d.chunk.js.map": "/static/js/487.3ea3529d.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -47,6 +49,6 @@
   },
   "entrypoints": [
     "static/css/main.064e7838.css",
-    "static/js/main.302922fd.js"
+    "static/js/main.25100ab6.js"
   ]
 }
