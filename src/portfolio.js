@@ -255,6 +255,17 @@ const achievementSection = {
   subtitle: "",
   achievementsCards: [
     {
+      title: "GPU Scheduler: AI-Assisted GPU Inference Scheduling in Open Environments",
+      subtitle: "A compact OpenEnv benchmark for AI-assisted GPU inference scheduling. An agent observes a small simulated GPU cluster, decides where pending inference-style jobs should run, and is scored on deadline handling, resource fit, allocation, and cost.",
+      image: require("./assets/images/openenv_logo.webp"),
+      demoVideo: require("./assets/videos/gpu-scheduler.webm"),
+      footerLink: [
+        { name: "Github", url: "https://github.com/SulmanK/gpu-scheduler-openenv/tree/master" },
+        { name: "Application", url: "https://huggingface.co/spaces/SulmanK/gpu-scheduler-openenv" },
+        { name: "Blog", url: "https://huggingface.co/spaces/SulmanK/gpu-scheduler-openenv-blog" }
+      ]
+    },
+    {
       title: "Werewolf Arena Benchmark: An Agentic Social Deduction Benchmark",
       subtitle: "Werewolf Arena Benchmark, an AgentBeats-based social-deduction evaluation suite that measures how LLM agents reason, persuade, and coordinate under hidden roles. It standardizes A2A agent submissions, runs controlled role-balanced evaluations, and reports richer metrics beyond win rate (e.g., vote quality and role effectiveness) alongside safety signals. This work demonstrates how reproducible harnesses can turn multi-agent gameplay into a practical, community-scale benchmark.",
       image: require("./assets/images/werewolf-arena-benchmark-logo.png"),
@@ -386,6 +397,12 @@ const blogSection = {
     "I'll be showcasing my latest projects here.",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+    {
+      url: "https://huggingface.co/spaces/SulmanK/gpu-scheduler-openenv-blog",
+      title: "GPU Scheduler: AI-Assisted GPU Inference Scheduling in Open Environments",
+      description:
+        "This article covers building a compact OpenEnv benchmark where an AI agent schedules GPU inference jobs across a simulated cluster, scored on deadline handling, resource fit, allocation, and cost."
+    },
     {
       url: "https://sulmank.github.io/Blog/writing/2026/02/01/werewolf-social-deduction-agentbeats",
       title: "Werewolf Arena Benchmark: An Agentic Social Deduction Benchmark",
