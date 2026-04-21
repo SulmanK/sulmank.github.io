@@ -258,7 +258,7 @@ const achievementSection = {
       title: "GPU Scheduler: AI-Assisted GPU Inference Scheduling in Open Environments",
       subtitle: "A compact OpenEnv benchmark for AI-assisted GPU inference scheduling. An agent observes a small simulated GPU cluster, decides where pending inference-style jobs should run, and is scored on deadline handling, resource fit, allocation, and cost.",
       image: require("./assets/images/openenv_logo.webp"),
-      demoVideo: require("./assets/videos/gpu-scheduler.webm"),
+      demoVideo: require("./assets/videos/gpu-scheduler.mp4"),
       footerLink: [
         { name: "Github", url: "https://github.com/SulmanK/gpu-scheduler-openenv/tree/master" },
         { name: "Application", url: "https://huggingface.co/spaces/SulmanK/gpu-scheduler-openenv" },
