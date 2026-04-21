@@ -203,7 +203,7 @@ const workExperiences = {
       role: "AI Trainer & Reviewer",
       company: "Mercor Intelligence",
       companylogo: require("./assets/images/mercor_logo.jpg"),
-      date: "April 2026 – Present",
+      date: "April 2025 – Present",
       desc: "",
       descBullets: [
         "Developed training tasks and evaluation rubrics spanning software engineering, data science, and machine learning domains to support large-scale AI model fine-tuning.",
