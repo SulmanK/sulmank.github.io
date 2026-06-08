@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.064e7838.css",
-    "main.js": "/static/js/main.867c79d8.js",
+    "main.js": "/static/js/main.7889194e.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.3ea3529d.chunk.js": "/static/js/487.3ea3529d.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/cwow-demo.mp4": "/static/media/cwow-demo.409db507ae641bcb3cf5.mp4",
     "static/media/backblaze-demo.mp4": "/static/media/backblaze-demo.46eff8a44f2ae507bd64.mp4",
     "static/media/reddit-demo.mp4": "/static/media/reddit-demo.de1ef2d7b96d222e9ea1.mp4",
+    "static/media/inferenceops-demo.mp4": "/static/media/inferenceops-demo.4b8cb3afd782d52b5509.mp4",
     "static/media/ebay-demo.mp4": "/static/media/ebay-demo.91ec13698fefcee35d89.mp4",
     "static/media/werewolf-arena-benchmark-demo.mp4": "/static/media/werewolf-arena-benchmark-demo.be7894a96b4d72a62f82.mp4",
     "static/media/bdLogo.png": "/static/media/bdLogo.4eaef477102fb5e78d25.png",
@@ -29,6 +30,7 @@
     "static/media/reddit_logo.png": "/static/media/reddit_logo.c23d519f914310020f67.png",
     "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/backblaze_logo.webp": "/static/media/backblaze_logo.09208155e8967968bf60.webp",
+    "static/media/inferenceops-logo.png": "/static/media/inferenceops-logo.7f9c0abccee7f9f430b9.png",
     "static/media/fingercrampLogo.webp": "/static/media/fingercrampLogo.a964548608e296428a59.webp",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -41,7 +43,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.f880506b1d7e00aadb18.svg",
     "main.064e7838.css.map": "/static/css/main.064e7838.css.map",
-    "main.867c79d8.js.map": "/static/js/main.867c79d8.js.map",
+    "main.7889194e.js.map": "/static/js/main.7889194e.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.3ea3529d.chunk.js.map": "/static/js/487.3ea3529d.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -49,6 +51,6 @@
   },
   "entrypoints": [
     "static/css/main.064e7838.css",
-    "static/js/main.867c79d8.js"
+    "static/js/main.7889194e.js"
   ]
 }
