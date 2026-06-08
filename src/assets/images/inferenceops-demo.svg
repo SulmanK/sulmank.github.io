@@ -1,0 +1,76 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">InferenceOps project demo</title>
+  <desc id="desc">A compact architecture and results visual for InferenceOps, an LLM serving benchmark lab.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#93c5fd"/>
+    </marker>
+    <style>
+      .title{font:700 50px Montserrat,Arial,sans-serif;fill:#f8fafc}.subtitle{font:400 22px Montserrat,Arial,sans-serif;fill:#cbd5e1}.box{fill:#111827;stroke:#334155;stroke-width:2;rx:16}.box2{fill:#0f1f3a;stroke:#2563eb;stroke-width:2;rx:16}.metric{fill:#0b1220;stroke:#22c55e;stroke-width:2;rx:14}.label{font:700 22px Montserrat,Arial,sans-serif;fill:#f8fafc}.small{font:400 16px Montserrat,Arial,sans-serif;fill:#cbd5e1}.tiny{font:400 14px Montserrat,Arial,sans-serif;fill:#94a3b8}.num{font:700 30px Montserrat,Arial,sans-serif;fill:#86efac}.line{stroke:#93c5fd;stroke-width:3;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="1050" cy="90" r="130" fill="#1d4ed8" opacity="0.16"/>
+  <circle cx="140" cy="620" r="150" fill="#0ea5e9" opacity="0.12"/>
+
+  <text x="70" y="90" class="title">InferenceOps</text>
+  <text x="72" y="126" class="subtitle">Reproducible LLM serving, routing, and GPU operations benchmark</text>
+
+  <rect x="70" y="180" width="210" height="95" class="box2"/>
+  <text x="100" y="220" class="label">Trace Pack</text>
+  <text x="100" y="250" class="small">prompts, arrivals, seeds</text>
+
+  <rect x="360" y="180" width="220" height="95" class="box2"/>
+  <text x="390" y="220" class="label">Replay Harness</text>
+  <text x="390" y="250" class="small">OpenAI-compatible API</text>
+
+  <rect x="665" y="140" width="220" height="95" class="box"/>
+  <text x="695" y="180" class="label">SGLang Gateway</text>
+  <text x="695" y="210" class="small">multi-worker routing</text>
+
+  <rect x="665" y="275" width="220" height="95" class="box"/>
+  <text x="695" y="315" class="label">Controllers</text>
+  <text x="695" y="345" class="small">static, heuristic, agentic</text>
+
+  <rect x="960" y="140" width="170" height="95" class="box"/>
+  <text x="995" y="180" class="label">vLLM</text>
+  <text x="995" y="210" class="small">worker 1</text>
+
+  <rect x="960" y="275" width="170" height="95" class="box"/>
+  <text x="995" y="315" class="label">vLLM</text>
+  <text x="995" y="345" class="small">worker 2</text>
+
+  <rect x="360" y="430" width="525" height="108" class="box2"/>
+  <text x="390" y="472" class="label">vLLM Production Stack on k3s</text>
+  <text x="390" y="505" class="small">Helm, NVIDIA device plugin, router service, two A100 nodes</text>
+
+  <rect x="70" y="575" width="250" height="72" class="metric"/>
+  <text x="95" y="605" class="tiny">M2 router matrix</text>
+  <text x="95" y="635" class="num">432/432 ok</text>
+
+  <rect x="380" y="575" width="250" height="72" class="metric"/>
+  <text x="405" y="605" class="tiny">M5 k3s stack</text>
+  <text x="405" y="635" class="num">144/144 ok</text>
+
+  <rect x="690" y="575" width="310" height="72" class="metric"/>
+  <text x="715" y="605" class="tiny">M6 two-node GPU run</text>
+  <text x="715" y="635" class="num">2 A100 pods live</text>
+
+  <path d="M280 228 L360 228" class="line"/>
+  <path d="M580 228 L665 188" class="line"/>
+  <path d="M580 245 L665 322" class="line"/>
+  <path d="M885 188 L960 188" class="line"/>
+  <path d="M885 322 L960 322" class="line"/>
+  <path d="M775 370 L690 430" class="line"/>
+  <path d="M470 275 L545 430" class="line"/>
+
+  <text x="72" y="690" class="tiny">vLLM • SGLang Gateway • deterministic trace replay • bounded controllers • Kubernetes GPU serving</text>
+</svg>

@@ -46,9 +46,9 @@ const skillsSection = {
   title: "Skills",
   subTitle: "Building on a solid academic foundation and years of professional experience, I have developed advanced expertise in AI, Machine Learning, Statistics, Experimental Design, and Data Analysis. I have successfully leveraged AI-driven approaches to tackle complex business problems, optimize workflows, and generate measurable value across industries. ",
   skills: [
-  emoji("⚡ Designed and implemented end-to-end AI and machine learning pipelines, integrating data collection, cleaning, feature engineering, and model development."),
-  emoji("⚡ Leveraged advanced AI and analytics techniques to provide business value, delivering actionable insights and driving impactful decision-making."),
-  emoji("⚡ Deployed robust, scalable AI and ML solutions on cloud platforms such as AWS and GCP, ensuring high availability and performance.")
+  emoji("Ã¢Å¡Â¡ Designed and implemented end-to-end AI and machine learning pipelines, integrating data collection, cleaning, feature engineering, and model development."),
+  emoji("Ã¢Å¡Â¡ Leveraged advanced AI and analytics techniques to provide business value, delivering actionable insights and driving impactful decision-making."),
+  emoji("Ã¢Å¡Â¡ Deployed robust, scalable AI and ML solutions on cloud platforms such as AWS and GCP, ensuring high availability and performance.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -191,7 +191,7 @@ const workExperiences = {
       role: "AI/DS Consultant",  
       company: "Nuage Software Corporation",
       companylogo: require("./assets/images/NSlogo.png"),
-      date: "June 2024 – Present",
+      date: "June 2024 Ã¢â‚¬â€œ Present",
       desc: "",
       descBullets: [
     "Engineered a scalable ETL pipeline on GCP, orchestrating workflows with Apache Airflow, transforming data with dbt and Apache Spark, optimizing storage in BigQuery, and Looker for visualizations to support customer churn prediction and retention strategies.",
@@ -203,7 +203,7 @@ const workExperiences = {
       role: "AI Trainer & Reviewer",
       company: "Mercor Intelligence",
       companylogo: require("./assets/images/mercor_logo.jpg"),
-      date: "April 2025 – Present",
+      date: "April 2025 Ã¢â‚¬â€œ Present",
       desc: "",
       descBullets: [
         "Developed training tasks and evaluation rubrics spanning software engineering, data science, and machine learning domains to support large-scale AI model fine-tuning.",
@@ -214,7 +214,7 @@ const workExperiences = {
       role: "Data Scientist",  
       company: "Fingercramp",
       companylogo: require("./assets/images/fingercrampLogo.webp"),
-      date: "May 2018 – January 2024",
+      date: "May 2018 Ã¢â‚¬â€œ January 2024",
       desc: "",
       descBullets: [
     "Developed a character balancing model based on historical statistic performance and matchup characteristics.",
@@ -265,6 +265,17 @@ const achievementSection = {
   title: emoji("Project Showcase"),
   subtitle: "",
   achievementsCards: [
+    {
+      title: "InferenceOps: Reproducible LLM Serving Lab",
+      subtitle: "InferenceOps is a production-style LLM serving benchmark lab for evaluating vLLM, SGLang Gateway routing, deterministic trace replay, controller policies, and Kubernetes GPU deployment. The project progresses from a single vLLM baseline to SGLang multi-worker routing, bounded heuristic and agentic controllers, vLLM Production Stack on k3s, and a two-node A100 cluster experiment with documented scheduling and storage fixes.",
+      image: require("./assets/images/inferenceops-logo.png"),
+      imageAlt: "InferenceOps project logo",
+      demoVideo: require("./assets/videos/inferenceops-demo.mp4"),
+      footerLink: [
+        { name: "Github", url: "https://github.com/SulmanK/InferenceOps" },
+        { name: "Blog", url: "https://sulmank.github.io/Blog/writing/2026/06/08/inferenceops-llm-serving-gpu-benchmark" }
+      ]
+    },
     {
       title: "GPU Scheduler: AI-Assisted GPU Inference Scheduling in Open Environments",
       subtitle: "A compact OpenEnv benchmark for AI-assisted GPU inference scheduling. An agent observes a small simulated GPU cluster, decides where pending inference-style jobs should run, and is scored on deadline handling, resource fit, allocation, and cost.",
@@ -409,6 +420,12 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
+      url: "https://sulmank.github.io/Blog/writing/2026/06/08/inferenceops-llm-serving-gpu-benchmark",
+      title: "InferenceOps: Building a Reproducible LLM Serving Lab",
+      description:
+        "This article covers building a reproducible LLM inference operations lab with vLLM, SGLang Gateway, deterministic trace replay, controller policies, and Kubernetes GPU deployment."
+    },
+    {
       url: "https://huggingface.co/spaces/SulmanK/gpu-scheduler-openenv-blog",
       title: "GPU Scheduler: AI-Assisted GPU Inference Scheduling in Open Environments",
       description:
@@ -480,7 +497,7 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE Ã°Å¸Ëœâ€¦"
   ),
 
   talks: [
@@ -497,7 +514,7 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
+  title: emoji("Podcast Ã°Å¸Å½â„¢Ã¯Â¸Â"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
@@ -515,7 +532,7 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me Ã¢ËœÅ½Ã¯Â¸Â"),
   subtitle: "",
   number: "",
   email_address: "sulman@vt.edu"
@@ -550,3 +567,4 @@ export {
   isHireable,
   resumeSection
 };
+
